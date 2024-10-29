@@ -1,0 +1,9 @@
+site_name: ${{ values.name }}
+
+nav:
+  - Home: index.md
+  - Components:
+    - Example: components/component.md
+
+plugins:
+  - techdocs-core
